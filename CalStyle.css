@@ -1,0 +1,63 @@
+ .visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+body {
+  background-color: #1a1a1a; /* Dark background with a hint of blue */
+  color: white; /* White text */
+    font-family: 'RobotoBold', sans-serif;
+}
+
+h1 {
+  color: #ccff00; /* More yellow header text */
+    font-family: 'RobotoBold', sans-serif;
+}
+
+/* Container for the form */
+#championshipForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111; /* Darker gray form background */
+  border-radius: 0px;
+
+}
+
+/* Label and input container */
+.labelContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Text input styling */
+.inputContainer input {
+  width: 49.6692%; /* Set the width of input boxes */
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background-color: #222; /* Darker gray text box background */
+  color: white;
+
+  border: none; /* No borders */
+}
+
+/* Button styling */
+.buttonContainer button {
+  padding: 45px;
+  background-color: #ccff00; /* More yellow button color */
+  color: #1a1a1a;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-left: 137px;
+  font-size: 22px;
+  margin-bottom:100px
+}
