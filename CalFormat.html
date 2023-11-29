@@ -1,0 +1,146 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <div id="announcement" class="visually-hidden" aria-live="polite"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathematical Championship Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Mathematical Championship Calculator</h1>
+
+<form id="championshipForm" novalidate>
+    <hr>
+    <div>
+    <!-- Number of races completed -->
+    <div class="labelContainer">
+      <label for="racesCompleted"># of races completed:</label>
+      <label for="totalRaces">Total # of races in the season:</label>
+    </div>
+    <div class="inputContainer">
+      <input type="number" id="racesCompleted" required>
+      <input type="number" id="totalRaces" required>
+    </div>
+    <hr>
+
+    <!-- Leading Team -->
+    <div class="labelContainer">
+      <label for="leadingTeamName">1 (Lead) - Name:</label>
+      <label for="leadingTeamPoints">Points:</label>
+    </div>
+    <div class="inputContainer">
+      <input type="text" id="leadingTeamName" required>
+      <input type="number" id="leadingTeamPoints" required>
+    </div>
+
+    <!-- Chasing Teams -->
+    <div id="chasingTeamsContainer">
+      <!-- Chasing Team 2 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName2">2 (Chase) - Name:</label>
+        <label for="chasingTeamPoints2">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName2" required>
+        <input type="number" id="chasingTeamPoints2" required>
+      </div>
+
+      <!-- Chasing Team 3 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName3">3 (Chase) - Name:</label>
+        <label for="chasingTeamPoints3">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName3" required>
+        <input type="number" id="chasingTeamPoints3" required>
+      </div>
+
+      <!-- Chasing Team 4 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName4">4 (Chase) - Name:</label>
+        <label for="chasingTeamPoints4">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName4" required>
+        <input type="number" id="chasingTeamPoints4" required>
+      </div>
+
+      <!-- Chasing Team 5 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName5">5 (Chase) - Name:</label>
+        <label for="chasingTeamPoints5">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName5" required>
+        <input type="number" id="chasingTeamPoints5" required>
+      </div>
+
+      <!-- Chasing Team 6 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName6">6 (Chase) - Name:</label>
+        <label for="chasingTeamPoints6">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName6" required>
+        <input type="number" id="chasingTeamPoints6" required>
+      </div>
+
+      <!-- Chasing Team 7 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName7">7 (Chase) - Name:</label>
+        <label for="chasingTeamPoints7">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName7" required>
+        <input type="number" id="chasingTeamPoints7" required>
+      </div>
+
+      <!-- Chasing Team 8 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName8">8 (Chase) - Name:</label>
+        <label for="chasingTeamPoints8">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName8" required>
+        <input type="number" id="chasingTeamPoints8" required>
+      </div>
+
+      <!-- Chasing Team 9 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName9">9 (Chase) - Name:</label>
+        <label for="chasingTeamPoints9">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName9" required>
+        <input type="number" id="chasingTeamPoints9" required>
+      </div>
+
+      <!-- Chasing Team 10 -->
+      <div class="labelContainer">
+        <label for="chasingTeamName10">10 (Chase) - Name:</label>
+        <label for="chasingTeamPoints10">Points:</label>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="chasingTeamName10" required>
+        <input type="number" id="chasingTeamPoints10" required>
+      </div>
+
+
+    <!-- Button -->
+    <div class="buttonContainer">
+<button id="calculateButton" name="calculateButton" aria-label="Calculate Championship">
+  Calculate Championship
+</button>
+      
+    </div>
+    <hr>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
